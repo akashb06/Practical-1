@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main() 
+{
+//program to find whether a number is prime or not
+int n,i,a=0;
+printf("Enter a number:"); 
+scanf("%d",&n);
+//logic
+for(i=1;i<=n;i++)
+{ if (n%i==0)
+c++;
+}
+if(c==2)
+{
+    printf("%d is a prime number",n);
+}
+else
+{
+    printf("%d is not a prime number",n);
+}
+return 0;
+}
+
+//sample input 1 : 7
+//sample output 1 : 7 is a prime number
+
+//sample input 2 : 66
+//sample output 2 : 66 is not a prime number
